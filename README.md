@@ -1,4 +1,4 @@
-About neo-pager
+neo-pager
 ===============
 jQuery based plugin that can be use for creating web-sections (pages) and possibility to scroll or jump through pages
 
@@ -13,8 +13,34 @@ use supported pager plugin methods.
 - It is fully responsive
 For more about the plugin construction see the explanation parts below.
 
-How to define html structure
-============================
+Table of contents
+=================
+
+  * [neo-pager](#neo-pager)
+  * [Table of contents](#table-of-contents)
+  * [Installation](#installation)
+  * [HTML structure](#html-structure)
+  * [Example CSS](#example-css)
+  * [Options](#options)
+  * [How to create](#how-to-create)
+  * [Demo](#demo)
+  * [Live preview](#live-preview)
+  
+Installation
+============
+
+Include JavaScript file 'neo.pager.js' into your HTML file (head tag)
+```
+<script type="text/javascript" src="relative-or-absolute-path\neo.pager.js"></script>
+```
+or include the mini version of the plugin
+```
+<script type="text/javascript" src="relative-or-absolute-path\neo.pager.min.js"></script>
+```
+You can use default css integrated into the plugin or you can define your own
+
+HTML structure
+==============
 
 - To show hint on dot you need to add attribute: data-hint-text
 - To show text by dots you need to add attribute: data-dot-text
@@ -30,8 +56,8 @@ How to define html structure
 </div>
 ```
 	
-Example css style for the dots and the hint
-===========================================
+Example CSS
+===========
 
 If you want to style the dots and hint this is the best way how to do it!
 - In this example the id's and classes names are the plugin default.
@@ -103,26 +129,9 @@ If you want to style the dots and hint this is the best way how to do it!
   text-transform: capitalize;
 }
 ```
-
 	
-How to create Pager
-===================
-
-To create the pager you do it like this: (by the first html example structure)
-```
-// without all default options
-$("#pager-holder").neo_pager();
-
-// with auto scroll enabled and default css
-$("#pager-holder").neo_pager({
-	autoScrollPages: true,
-	useDefaultCss: true
-});
-```
-	
-	
-Options you can use when you create the plugin
-==============================================
+Options
+=======
 
 ```
 pageClass: "page", // class selector for all pages
@@ -148,6 +157,21 @@ onAutoScrollEnd: null, // event after auto scroll end
 useDefaultCss: false, // if true, plugin css will be auto created
 hintClass: "hint--left hint--rounded hint--page", // classes that describe hint side position, how hint will be shown, and hint style
 addHintStyle: true // if true it will auto generate hint css classes and styles
+```
+
+How to create
+=============
+
+To create the pager you do it like this: (by the first html example structure)
+```
+// without all default options
+$("#pager-holder").neo_pager();
+
+// with auto scroll enabled and default css
+$("#pager-holder").neo_pager({
+	autoScrollPages: true,
+	useDefaultCss: true
+});
 ```
 
 Demo
