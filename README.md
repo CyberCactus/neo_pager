@@ -13,16 +13,6 @@ use supported pager plugin methods.
 - It is fully responsive
 For more about the plugin construction see the explanation parts below.
 
-**Table of Contents**
-
-- [About neo-pager](#About-neo-pager)
-	- [How to define html structure](#How-to-define-html-structure)
-	- [Example css style for the dots and the hint](#Example-css-style-for-the-dots-and-the-hint)
-	- [How to create Pager](#How-to-create-Pager)
-	- [Options you can use when you create the plugin](#Options-you-can-use-when-you-create-the-plugin)
-	- [Demo](#Demo)
-	- [Live preview](#Live-preview)
-
 How to define html structure
 ============================
 
