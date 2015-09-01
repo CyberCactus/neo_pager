@@ -1,4 +1,5 @@
-# About neo-pager
+About neo-pager
+===============
 jQuery based plugin that can be use for creating web-sections (pages) and possibility to scroll or jump through pages
 
 Plugin that enable you to create web page sections and it will auto create dots (if set in options) for navigation.
@@ -12,17 +13,18 @@ use supported pager plugin methods.
 - It is fully responsive
 For more about the plugin construction see the explanation parts below.
 
-**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+**Table of Contents**
 
-- [About neo-pager](#)
-	- [How to define html structure](#)
-	- [Example css style for the dots and the hint](#)
-	- [How to create Pager](#)
-	- [Options you can use when you create the plugin](#)
-	- [Demo](#)
-	- [Live preview](#)
+- [About neo-pager](#About-neo-pager)
+	- [How to define html structure](#How-to-define-html-structure)
+	- [Example css style for the dots and the hint](#Example-css-style-for-the-dots-and-the-hint)
+	- [How to create Pager](#How-to-create-Pager)
+	- [Options you can use when you create the plugin](#Options-you-can-use-when-you-create-the-plugin)
+	- [Demo](#Demo)
+	- [Live preview](#Live-preview)
 
-##How to define html structure
+How to define html structure
+============================
 
 - To show hint on dot you need to add attribute: data-hint-text
 - To show text by dots you need to add attribute: data-dot-text
@@ -38,7 +40,8 @@ For more about the plugin construction see the explanation parts below.
 </div>
 ```
 	
-##Example css style for the dots and the hint
+Example css style for the dots and the hint
+===========================================
 
 If you want to style the dots and hint this is the best way how to do it!
 - In this example the id's and classes names are the plugin default.
@@ -112,7 +115,9 @@ If you want to style the dots and hint this is the best way how to do it!
 ```
 
 	
-##How to create Pager
+How to create Pager
+===================
+
 To create the pager you do it like this: (by the first html example structure)
 ```
 // without all default options
@@ -126,7 +131,8 @@ $("#pager-holder").neo_pager({
 ```
 	
 	
-##Options you can use when you create the plugin
+Options you can use when you create the plugin
+==============================================
 
 ```
 pageClass: "page", // class selector for all pages
@@ -154,10 +160,12 @@ hintClass: "hint--left hint--rounded hint--page", // classes that describe hint 
 addHintStyle: true // if true it will auto generate hint css classes and styles
 ```
 
-##Demo
+Demo
+====
 You will find a basic example of this component in 'base' folder of this git repository
 
-##Live preview
+Live preview
+============
 This website is part of a project and represent one page scroll website made with this component
 
 http://esbe.youboost.it/
