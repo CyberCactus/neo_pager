@@ -1,4 +1,14 @@
-# neo-pager
+**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+
+- [About neo-pager](#)
+	- [How to define html structure](#)
+	- [Example css style for the dots and the hint](#)
+	- [How to create Pager](#)
+	- [Options you can use when you create the plugin](#)
+	- [Demo](#)
+	- [Live preview](#)
+
+# About neo-pager
 jQuery based plugin that can be use for creating web-sections (pages) and possibility to scroll or jump through pages
 
 Plugin that enable you to create web page sections and it will auto create dots (if set in options) for navigation.
@@ -11,16 +21,6 @@ use supported pager plugin methods.
 - It will auto connect dots with pages and vise-versa
 - It is fully responsive
 For more about the plugin construction see the explanation parts below.
-
-**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
-
-- [neo-pager](#)
-	- [How to define html structure](#)
-	- [Example css style for the dots and the hint](#)
-	- [How to create Pager](#)
-	- [Options you can use when you create the plugin](#)
-	- [Demo](#)
-	- [Live preview](#)
 
 ##How to define html structure
 
