@@ -12,6 +12,15 @@ use supported pager plugin methods.
 - It is fully responsive
 For more about the plugin construction see the explanation parts below.
 
+**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+
+- [neo-pager](#)
+	- [How to define html structure](#)
+	- [Example css style for the dots and the hint](#)
+	- [How to create Pager](#)
+	- [Options you can use when you create the plugin](#)
+	- [Demo](#)
+	- [Live preview](#)
 
 ##How to define html structure
 
