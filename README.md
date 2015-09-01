@@ -117,7 +117,7 @@ $("#pager-holder").neo_pager({
 ```
 	
 	
-##Options you can use when you are creating instance from the plugin
+##Options you can use when you create the plugin
 
 ```
 pageClass: "page", // class selector for all pages
@@ -144,3 +144,11 @@ useDefaultCss: false, // if true, plugin css will be auto created
 hintClass: "hint--left hint--rounded hint--page", // classes that describe hint side position, how hint will be shown, and hint style
 addHintStyle: true // if true it will auto generate hint css classes and styles
 ```
+
+##Demo
+You will find a basic example of this component in 'base' folder of this git repository
+
+##Live preview
+This website is part of a project and represent one page scroll website made with this component
+
+http://esbe.youboost.it/
