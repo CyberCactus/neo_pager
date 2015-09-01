@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+		<meta content="utf-8" http-equiv="encoding">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+						
+		<link rel="stylesheet" type="text/css" media="screen, projection" href="main.css" />		
+		
+		<script  type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script  type="text/javascript" src="../../neo.pager.js"></script>
+		
+		<title>neo.pager</title>
+	</head>	
+<body>
+	
+	
+	<div id="pager-holder">
+		<div class="block1 height-block page" data-hint-text="Page 1"><h1>Page 1</h1></div>
+		<div class="block2 height-block page" data-hint-text="Page 2"><h1>Page 2</h1></div>
+		<div class="block3 height-block page" data-hint-text="Page 3"><h1>Page 3</h1></div>
+		<div class="block4 height-block page" data-hint-text="Page 4"><h1>Page 4</h1></div>
+		<div class="block5 height-block page" data-hint-text="Page 5"><h1>Page 5</h1></div>
+		<div class="block6 height-block page" data-hint-text="Page 6"><h1>Page 6</h1></div>
+	</div>
+	
+	
+	<script type="text/javascript">
+		$(document).ready(function () {
+			// log for all callbacks
+			$("#pager-holder").neo_pager({
+				autoScrollPages: true,
+				useDefaultCss: true,
+				onDotHide: function () {
+					console.log("onDotHide");
+				},
+				onDotShow: function () {
+					console.log("onDotShow");
+				},
+				onPageIn: function (dot, indNew, indOld) {
+					console.log("onPageIn, ind new: ", indNew, " , ind old: ", indOld, " , dot: ", dot);
+				},
+				onPageOut: function (dot, ind) {
+					console.log("onPageOut, ind: ", ind, " , dot: ", dot);
+				},
+				onAutoScrollStart: function (dot, ind) {
+					console.log("onAutoScrollStart, ind: ", ind, " , dot: ", dot);
+				},
+				onAutoScrollEnd: function (dot, ind) {
+					console.log("onAutoScrollEnd, ind: ", ind, " , dot: ", dot);
+				}
+			});
+		});
+	</script>
+
+	
+</body>
+
+</html>
