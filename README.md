@@ -176,7 +176,7 @@ $("#pager-holder").neo_pager({
 
 Demo
 ====
-You will find a basic example of this component in 'base' folder of this git repository
+You will find a basic example of this component in [base](/examples/base) folder of this git repository
 
 Live preview
 ============
